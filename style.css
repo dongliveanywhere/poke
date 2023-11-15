@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./pic/1001609-free-download-new-pokemon-wallpaper-1920x1200-retina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dex{
+    background-image:url(./pic/qYpvyq-800.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    text-align: center;
+    width: 800px;
+    height: 70vh;
+    transform: translate(-50% ,-50%);
+    position: absolute;
+    top:50%;    
+    left:50%;   
+    color:gold;
+}
+.search{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.search-item{
+    width: 50%;
+    box-sizing: border-box;
+    padding:5px;
+    margin-left: 20px;
+    text-decoration:underline;
+    margin-left: 200px;
+}
+
+#location{
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
+    padding : 5px 0;
+    margin:20px 0px;
+
+}
+.gif{
+    text-align: left;
+    margin-right: 40px;
+    width:70px;
+    height:50px;
+}
+.bio{
+    padding-top: 280px;
+}
+.name{
+    padding-right: 120px;
+}
+.type{padding-right: 120px;}
+.height{padding-right: 120px;}
+.weight{padding-right: 120px;}
+.bio{padding-right: 120px;}
